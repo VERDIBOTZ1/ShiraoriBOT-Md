@@ -2,12 +2,12 @@ const PhoneNumber = require('awesome-phonenumber')
 async function handler(m) {
                 let vcard = 'BEGIN:VCARD\n' // metadata of the contact card
                     + 'VERSION:3.0\n' 
-                    + 'N:;Ilman;;;'
-                    + 'FN:Ilman\n' // full name
-                    + 'ORG:Ilman;\n' // the organization of the contact
-                    + 'TEL;type=CELL;type=VOICE;waid=6281351047727:+62 813-5104-7727\n' // WhatsApp ID + phone number
+                    + 'N:;VERDI;;;'
+                    + 'FN:VERDIBOTZ1n' // full name
+                    + 'ORG:6283869803330;\n' // the organization of the contact
+                    + 'TEL;type=CELL;type=VOICE;waid=62838698033330:+62 85706735450\n' // WhatsApp ID + phone number
                     + 'END:VCARD'
-                conn.sendMessage(m.chat, { contacts: { displayName: 'Ilman', contacts: [{ vcard }] } }, { quoted: m })
+                conn.sendMessage(m.chat, { contacts: { displayName: 'verdi', contacts: [{ vcard }] } }, { quoted: m })
 }
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
