@@ -1,6 +1,6 @@
 let fs = require('fs')
 
-global.owner = ['6283869803330'] // Put your number here
+global.owner = ['6285706735450'] // Put your number here
 global.mods = [] // Want some help?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json'))
 global.APIs = { // API Prefix
@@ -36,7 +36,7 @@ global.wm = '© BOT TZY '
 global.media = 'https://telegra.ph/file/5d45a3d1e12726d98c5e4.jpg'
 
 global.wait = '_*ENTEN BRO🚴...*_'
-global.eror = '_*Server RUSAK TOK*_'
+global.eror = '_*Server RUSAK WOI*_'
 
 global.multiplier = 69 // The higher, The harder levelup
 
